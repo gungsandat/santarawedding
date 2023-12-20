@@ -24,6 +24,7 @@ body {
   filter: grayscale();
 }
 
+
 .hero {
   position: relative;
   min-height: 100vh;
@@ -471,7 +472,7 @@ footer li {
   }
 
   .simply-countdown > .simply-section {
-    padding: 45px;
+    padding: 30px;
     margin: 3px;
   }
 
@@ -492,4 +493,17 @@ footer li {
   .timeline li .timeline-panel::after {
     top: 31px;
   }
+
+  .couple .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.couple .col-8 {
+    text-align: center !important; /* Menambahkan !important untuk mengatasi kekhususan CSS yang lebih tinggi */
+    padding-top: 20px;
+}
+
 }
