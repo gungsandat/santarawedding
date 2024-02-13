@@ -46,6 +46,12 @@ body {
 
 .hero h4 {
   font-size: 1.6rem;
+  
+}
+
+#guest-name{
+  font-weight:900;
+  
 }
 
 .hero p {
